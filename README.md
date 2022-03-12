@@ -1,0 +1,1 @@
+# device-tecno-kf6k
