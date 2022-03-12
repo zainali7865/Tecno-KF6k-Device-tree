@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from TECNO-KF6k device
-$(call inherit-product, device/tecno/TECNO-KF6k/device.mk)
+$(call inherit-product, device/tecno/KF6k/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := TECNO-KF6k
-PRODUCT_NAME := twrp_TECNO-KF6k
+PRODUCT_DEVICE := KF6k
+PRODUCT_NAME := twrp_KF6k
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO KF6k
 PRODUCT_MANUFACTURER := tecno

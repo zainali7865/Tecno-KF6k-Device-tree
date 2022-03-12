@@ -6,9 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_TECNO-KF6k.mk
+    $(LOCAL_DIR)/twrp_KF6k.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_TECNO-KF6k-user \
-    twrp_TECNO-KF6k-userdebug \
-    twrp_TECNO-KF6k-eng
+    twrp_KF6k-eng
